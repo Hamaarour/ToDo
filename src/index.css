@@ -2,7 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Remove the list style (bullet point) */
-ul {
-    list-style-type: none;
-}
