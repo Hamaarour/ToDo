@@ -29,7 +29,7 @@ function App() {
     <div className="min-h-screen flex items-center justify-center bg-slate-500">
       <div className="bg-white p-6 rounded-lg shadow-md w-80 whitespace-normal overflow-auto">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">To Do List</h2>
-        <ul className="list-disc pl-4 text-gray-700 list-none">
+        <ul className="pl-4 text-gray-700 list-none">
           {toDoList.map((item, index) => (
             <li key={index} className="mb-2 cursor-pointer relative">
               <span
